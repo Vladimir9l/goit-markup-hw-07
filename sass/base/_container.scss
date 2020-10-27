@@ -1,0 +1,22 @@
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.footer-block {
+  display: flex;
+}
+
+.hero-three {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
