@@ -185,7 +185,7 @@ header .container {
   color: #212121;
 }
 
-.team-people {
+/*.team-people { 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.186;
@@ -194,7 +194,7 @@ header .container {
   color: #212121;
   margin-bottom: 10px;
 }
-
+*/
 .social-list {
   display: flex;
   justify-content: center;

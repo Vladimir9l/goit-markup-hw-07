@@ -1,6 +1,6 @@
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   &-svg {
     width: 20px;
@@ -39,10 +39,6 @@
 }
 
 .black li:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-list-link + .social-list-link {
   margin-right: 10px;
 }
 
@@ -89,6 +85,6 @@
   }
 }
 
-.social-list-item + .social-list-item {
+.social-list-svg + .social-list-svg {
   margin-right: 10px;
 }
