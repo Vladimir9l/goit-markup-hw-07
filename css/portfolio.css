@@ -197,7 +197,7 @@ header .container {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social-list-svg {
@@ -276,6 +276,10 @@ header .container {
 .social-item:hover .footer-svg,
 .social-item:focus .footer-svg {
   fill: #ffffff;
+}
+
+.social-list-svg + .social-list-svg {
+  margin-right: 10px;
 }
 
 .footer-form-input {

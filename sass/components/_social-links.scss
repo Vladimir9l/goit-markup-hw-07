@@ -42,6 +42,10 @@
   margin-right: 10px;
 }
 
+.social-list-link + .social-list-link {
+  margin-right: 10px;
+}
+
 .social-links {
   display: flex;
   width: 206px;
@@ -83,4 +87,8 @@
   &:focus .footer-svg {
     fill: #ffffff;
   }
+}
+
+.social-list-item + .social-list-item {
+  margin-right: 10px;
 }
