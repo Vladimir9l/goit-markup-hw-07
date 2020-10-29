@@ -1,6 +1,6 @@
 .social-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   &-svg {
     width: 20px;
@@ -11,6 +11,7 @@
 
 .white {
   fill: #afb1b8;
+  margin: 16px 32px 0px 32px;
 }
 
 .social-list-link {
@@ -83,8 +84,8 @@
   &:focus .footer-svg {
     fill: #ffffff;
   }
-}
 
-.social-list-svg + .social-list-svg {
-  margin-right: 10px;
+  & + & {
+    padding-right: 10px;
+  }
 }
